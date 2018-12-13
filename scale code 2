@@ -1,0 +1,8 @@
+...resizing images....
+
+x = imread('C:\Users\Asus\Desktop\IMG_4779.jpg');
+y=imresize(x,1/2);
+figure,imshow(y)
+figure,imagesc(y),colormap(gray);
+ z=imresize(x,2);
+ figure,imagesc(z),colormap(gray);
